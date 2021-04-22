@@ -8,7 +8,7 @@
         "removeComments": true,
         "sourceMap": true,
         "module":"ES6",
-        "outFile": "docs/js/main.js"
+        "outDir": "./docs/"
     },
     "include": [
         "dev/**/*"

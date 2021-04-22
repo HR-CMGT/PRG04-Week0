@@ -1,8 +1,33 @@
-body, html {
-    margin:0; padding:0;
-    width:100%; height:100%;
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    color: #000;
+    font-size: 2em;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
-* {
-    box-sizing: border-box;
+background, robot {
+    position: absolute;
+    display: block;
+    box-sizing:border-box;
+}
+
+background {
+    background-image: url('../img/background.png');
+    background-position: bottom center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+robot {
+    background-image: url('../img/robot.png');
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 125px;
 }
