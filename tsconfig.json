@@ -3,12 +3,11 @@
         "strict": true,
         "noImplicitAny": true,
         "noImplicitThis": true,
-        "noUnusedLocals":true,
-        "noUnusedParameters":true,
         "strictPropertyInitialization": false,
         "target": "es6",
         "removeComments": true,
         "sourceMap": true,
+        "module":"ES6",
         "outFile": "docs/js/main.js"
     },
     "include": [
