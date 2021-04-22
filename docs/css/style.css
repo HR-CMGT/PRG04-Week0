@@ -4,14 +4,19 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'VT323', monospace;
-    color: #000;
-    font-size: 2em;
+    color: #FFF;
+    font-size: 1.8em;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
-background, robot {
+ui {
+    position:absolute;
+    transform: translate(20px, 20px);
+}
+
+background, robot, ui {
     position: absolute;
     display: block;
     box-sizing:border-box;
